@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyCashFlow</string>
+    <string name="cash_flow">Cash Flow</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="home_info">Rangkuman Bulan Ini</string>
+</resources>
