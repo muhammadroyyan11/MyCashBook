@@ -26,20 +26,22 @@
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="360dp"
         android:layout_height="wrap_content"
-        app:startIconDrawable="@android:drawable/ic_menu_my_calendar"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
         android:hint="Tanggal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/titleCashin">
+        app:layout_constraintTop_toBottomOf="@+id/titleCashin"
+        app:startIconDrawable="@android:drawable/ic_menu_my_calendar">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/input_tanggal"
-            android:focusable="false"
-            android:focusableInTouchMode="false"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="date"/>
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:inputType="date" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -48,7 +50,9 @@
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="360dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
         android:hint="Nominal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -65,7 +69,9 @@
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="360dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
         android:hint="Keterangan"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.49"
